@@ -1,20 +1,105 @@
+.firstdiv{
+    padding: 24px 80px 24px 80px;
+}
 .navigation{
-    width: 1,280px;
     height: 56px;
     display:flex;
-    justify-content: space-between;
-    padding-right: 32px;
-    padding-left: 32px;
+    justify-content: space-between;    
 }
-.personalimg{
-    width: 139.91px;
+.vardiv{
+    display: flex;
+    align-items: center;
+}
+.imglogo{
+
+}
+.varsha{
     height: 40px;
-    gap: 12px;
 }
 .nav{
-    font-family: "Sora", sans-serif;
-    width: 100%;
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
 }
 
+a{
+    font-family: "Sora", sans-serif;
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+.secdiv1{
+    height: 750px;
+    padding: 0%60px 80px 60px 80px;
+}
+.secdiv2{
+   
+    height: 630px;
+    justify-content: space-between;
+    padding: 32px 32px;
+    display: flex;
+}
+.banner{
+    width: 595px;
+    height: 600px;
+    float: left;
+}
+.icons{
+    display: flex;
+}
+.para{
+    width: 600px;
+    height: 376px;
+    padding: 20px 20px;
+    gap:48px;
+}
+.firstpara{
+    width: 600px;
+    height: 208px;
+    padding-top: 60px;
+}
+.pp12, .pp34{
+    display: flex;
+    gap:16px;
+}
+.pp2,.pp3,.pp6{
+    font-weight: 800;
+}
+span{
+    font-size: 48px;
+    font-family: "Sora", sans-serif;
+
+}
+.secpara{
+    height: 96px;
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    padding-top: 30px;
+}
+.icon{
+    height: 56px;
+    width: 56px;
+    border-radius: 4px;
+    padding: 16px;
+    gap: 8px;
+    border-color: #000000;
+    border-width: 3px;
+    background-color: white;
+}
+.icons{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.iconimg{
+    width: 20px;
+    height: 20px;
+}
+.fisthalf{
+    padding-top: 40px;
+    padding-left:25px ;
+}
