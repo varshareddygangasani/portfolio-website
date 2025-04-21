@@ -104,7 +104,7 @@ span{
     padding-left:25px ;
 }
 .secpag{
-    height: 713px;
+    height: 500px;
     padding: 60px 80px 60px 80px;
 }
 .secinner{
@@ -147,8 +147,20 @@ span{
 .firstline{
     height: 96px;
     align-items: center;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.thirdpg{
+    height: 728px;
+    padding: 60px 80px 60px 80px;
+}
+.thirdinner{
+    height: 608px;
+    padding: 32px 32px;
 }
 .txt1, .txt2{
+    
     font-family: "Sora", sans-serif;
     font-weight: 400;
     font-size: 48px;
@@ -156,4 +168,45 @@ span{
 .txt2{
     font-weight: 800;
 
+}
+.skilllogos{
+    height: 490px;
+}
+.divi1, .divi2{
+    height: 226px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.skil{
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    padding: 20px;
+    place-items: center;
+    padding-top: 30px;
+}
+.imgbor{
+    width: 110px;
+    height:130px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.imgg{
+    width: 58px;
+    height:58px; 
+    
+}
+.imgtag{
+    
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
 }
