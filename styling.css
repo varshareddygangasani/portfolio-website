@@ -152,7 +152,7 @@ span{
     gap:20px;
 }
 .thirdpg{
-    height: 728px;
+    height: 628px;
     padding: 60px 80px 60px 80px;
 }
 .thirdinner{
@@ -209,4 +209,97 @@ span{
     font-weight: 700;
     font-size: 20px;
     justify-content: center;
+}
+.fourthpg{
+   background-color: #000000; 
+    padding: 0px 90px 60px 90px;
+    height: 1524px;
+}
+.fourthinner{
+    padding: 32px 32px;
+    gap: 20px;
+}
+.fourthpgtitle{
+    height: 96px;
+    padding-bottom: 50px;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+}
+.txt1pj, .txt2pj{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    
+}
+.txt2pj{
+    font-weight: 800;
+
+}
+.pj{
+    padding: 20px 20px;
+    gap:70px;
+    display: flex;
+    justify-content: space-between;
+}
+.pjimg{
+    width: 600px;
+}
+.pjdetails{
+    width: 600px;
+    height:400px;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pjnumm{
+    font-size: 30px;
+}
+.pjnumm, .pjtitle, .pjinfo{
+    color: white;
+}
+.pjtitle{
+    height:60px;
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+h2{
+    margin: 0%;
+}
+.pjinfo, .cerdis{
+    font-family: "Sora", sans-serif;
+    
+    font-size:18px;
+    
+}
+.pjimgg{
+    width:600px;
+    height: 398px;
+    border-radius: 19px;
+    
+}
+.fifthpg{
+    height: 1000px;
+    padding:60px 80px 60px 80px ;
+
+}
+
+.cer1{
+   
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 30px 30px;
+    margin-top: 30px;
+    
+}
+.certitle{
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
 }
