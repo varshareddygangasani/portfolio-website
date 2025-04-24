@@ -211,6 +211,7 @@ span{
     justify-content: center;
 }
 .fourthpg{
+    /* width: 100%; */
    background-color: #000000; 
     padding: 0px 90px 60px 90px;
     height: 1524px;
@@ -303,3 +304,100 @@ h2{
     font-weight: 700;
     font-size: 30px;
 }
+.lastpg{
+    height: 504px;
+    padding: 60px 80px 60px 80px;
+    
+    
+}
+.input{
+    width: 500px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid black;
+    padding: 0px 24px 0px  14px;
+
+
+}
+.lastinner{
+    height: 480px;
+    display: flex;
+    padding-top: 20px;
+}
+.clientdet, .dis{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.help{
+    width: 535px;
+    height: 100px;
+    border-radius: 4px;
+    border: 2px solid black;
+    
+    /* padding:0px 24px 10px 14px; */
+    text-align: start;
+}
+.but{
+    width: 170px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px 20px 16px 20px;
+    background-color: #000000;
+    color: white;
+}
+.butico{
+    display: flex;
+    justify-content: space-between;
+
+}
+.iconn{
+    height: 58px;
+    width: 58px;
+    border-radius: 5px;
+    padding: 16px;
+    gap: 8px;
+    border-color: #000000;
+    border-width: 2px;
+    background-color: white;
+    padding: 2px 2px 1px 1px;
+    
+}
+.iconimgg{
+    width: 25px;
+    height: 25px;
+}
+.icoons{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.endlines{
+    width: 600px;
+    padding: 20px 20px;
+    gap: 24px;
+    padding-left: 100px;
+    
+}
+.txttt{
+    font-family: Arial, sans-serif;
+    color: transparent; /* Make the fill color transparent */
+    -webkit-text-stroke: 3px black;
+    font-weight: 800; 
+    /* font-family: "Sora", sans-serif;
+
+    font-weight: 800;
+    color: white;
+    -webkit-text-stroke: 2px black; Border width and color */
+}
+.mail{
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.blank{
+    height: 100px;
+    background-color: #000000;
+}
+
