@@ -10,9 +10,7 @@
     display: flex;
     align-items: center;
 }
-.imglogo{
 
-}
 .varsha{
     height: 40px;
 }
@@ -20,7 +18,7 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    width: 450px;
+    width: 600px;
 }
 
 a{
@@ -82,11 +80,11 @@ span{
     height: 70px;
     width: 70px;
     border-radius: 5px;
-    padding: 16px;
     gap: 8px;
     border-color: #000000;
     border-width: 1px;
     background-color: white;
+    align-items: center;
 }
 .icons{
     width: 300px;
@@ -330,12 +328,15 @@ h2{
     gap: 20px;
 }
 .help{
-    width: 535px;
+    font-family: "Sora", sans-serif;
+
+    width: 530px;
     height: 100px;
     border-radius: 4px;
     border: 2px solid black;
     
-    /* padding:0px 24px 10px 14px; */
+    padding-top: 10px;
+    padding-left: 10px;
     text-align: start;
 }
 .but{
