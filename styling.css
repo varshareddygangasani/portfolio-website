@@ -329,8 +329,7 @@ h2{
 }
 .help{
     font-family: "Sora", sans-serif;
-
-    width: 530px;
+    width: 526px;
     height: 100px;
     border-radius: 4px;
     border: 2px solid black;
@@ -350,6 +349,7 @@ h2{
 .butico{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 
 }
 .iconn{
