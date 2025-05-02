@@ -1,5 +1,5 @@
 .firstdiv{
-    
+    width: 100%;
     padding: 24px 80px 24px 80px;
 }
 .navigation{
@@ -152,7 +152,7 @@ span{
     gap:20px;
 }
 .thirdpg{
-    height: 380px;
+    height: 628px;
     padding: 60px 80px 60px 80px;
 }
 .thirdinner{
@@ -179,10 +179,10 @@ span{
     padding: 20px 20px;
 }
 .skil{
-    /* height: 450px; */
+    height: 450px;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: auto;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
     gap: 10px;
     padding: 20px;
     place-items: center;
@@ -417,10 +417,8 @@ h2{
 
 
 
-
 @media (max-width: 500px) {
     .firstdiv {
-        width: 100%;
         padding: 16px;
     }
     .navigation {
@@ -433,7 +431,7 @@ h2{
     .varsha {
         height: 30px;
     }
-    .nav , .aboutimg {
+    .nav {
         display: none;
     }
     .hamburger {
@@ -454,7 +452,7 @@ h2{
         margin: 3px 0;
         transition: 0.3s;
     }
-    .btn img,.banner {
+    .btn img {
         display: none;
     }
    
@@ -481,49 +479,8 @@ h2{
     }
     .menuimg{
         display: flex;
+
         width: 120px;
         height: 40px;
     }
-    .secdiv2 , .secinner{
-        flex-direction: column;
-    }
-    /* .secdiv2{
-        height: 1200px;
-    } */
-    .secpag{
-        margin-top: 160px;
-    } 
-    img.mobbanner {
-        display: flex;
-        max-width: 550px;
-        height: auto;
-    }
-    
-    .fisthalf, .firstpara{
-        max-width: 100%;
-    }
-   
-    .mobaboutimg{
-        display: flex;
-
-        max-width: 50%;
-        height: auto;
-    }
-    span{
-        font-size: 38px;
-        left: 0px;
-    }
-    .fisthalf,.para ,.firstpara{
-        padding-left: 0%;
-        padding-top: 0%;
-    }
-    .secdiv2{
-        padding-left: 5%;
-    }
-    .secpara {
-        height: 96px;
-        width: 385px;
-        padding-top:0% ;
-    }
-        
 }
