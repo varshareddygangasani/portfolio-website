@@ -410,7 +410,7 @@ h2{
     
     
 }
-.menuitem, .menuimg,.mobaboutimg, .mobbanner{
+.menuitem, .menuimg,.mobaboutimg, .mobbanner, .mobpjimgg{
     display: none;
 }
 
@@ -549,7 +549,7 @@ h2{
         padding-left: 7%;
     }
     .secpag {
-        margin-top: 30%;
+        margin-top: 50%;
     }
     .about2{
         max-width: 385px;
@@ -560,11 +560,11 @@ h2{
 
     }
     .thirdinner{
-        padding-left: 5%;
+        padding-left: 2%;
 
     }
     .firstline{
-        padding-left: 60%;
+        padding-left: 80%;
     }
     .skil{
         grid-template-columns: repeat(3,1fr);
@@ -577,6 +577,31 @@ h2{
     .fourthpg{
         width: auto;
         margin-top: 30%;
+        padding-left: 0%;
+        height: 1704px;
     }
+    .imgbor {
         
+        border: 1px solid black;
+        border-radius: 8px;
+        
+    }
+    .fourthpgtitle{
+        padding-left: 40%;
+    }
+    .lastinner, .pj{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .pjimgg {
+        width: 300px;
+        height: 144px;
+     
+    }
+    #mobpjimgg{
+        display: flex;
+    }
+    #secpj{
+        display: none;
+    }
 }
