@@ -420,7 +420,7 @@ h2{
 
 @media (max-width: 500px) {
     .firstdiv {
-        width: 100%;
+        width: 90%;
         padding: 16px;
     }
     .navigation {
@@ -524,6 +524,20 @@ h2{
         height: 96px;
         width: 385px;
         padding-top:0% ;
+    }
+    .varsha {
+        height: 40px;
+    }
+    .imglogo{
+        height: 50px;
+
+    }
+    .para{
+        height: 320px;
+        pad
+    }
+    .icons{
+        padding-left:40px;
     }
         
 }
