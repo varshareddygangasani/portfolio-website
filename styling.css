@@ -419,9 +419,7 @@ h2{
 
 
 @media (max-width: 500px) {
-    body{
-        height: 8000px;
-    }
+    
     .firstdiv {
         width: 95%;
         padding: 16px;
@@ -564,7 +562,7 @@ h2{
 
     }
     .firstline{
-        padding-left: 80%;
+        padding-left: 30%;
     }
     .skil{
         grid-template-columns: repeat(3,1fr);
@@ -631,5 +629,24 @@ h2{
     }
     .cer1{
         width: 100%;
+    }
+    .endlines{
+        width: 300px;
+        padding-left: 0px;
+    }
+    .lastpg{
+        padding-left: 8px;
+    }
+    .input{
+        width: 320px;
+    }
+    .help{
+        width: 345px;
+    }
+    .buticon, .icoons{
+        gap: 20px;
+    }
+    .blank{
+        width: 400px;
     }
 }
