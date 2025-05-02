@@ -419,8 +419,11 @@ h2{
 
 
 @media (max-width: 500px) {
+    body{
+        height: 8000px;
+    }
     .firstdiv {
-        width: 90%;
+        width: 95%;
         padding: 16px;
     }
     .navigation {
@@ -534,10 +537,46 @@ h2{
     }
     .para{
         height: 320px;
-        pad
+        
     }
     .icons{
-        padding-left:40px;
+        padding-left: 40px;
+    }
+    .secpag{
+        padding-left: 5%;
+    }
+    .about1{
+        padding-left: 7%;
+    }
+    .secpag {
+        margin-top: 30%;
+    }
+    .about2{
+        max-width: 385px;
+    }
+    .thirdpg{
+        padding-top: 500px;
+        padding-left: 0%;
+
+    }
+    .thirdinner{
+        padding-left: 5%;
+
+    }
+    .firstline{
+        padding-left: 60%;
+    }
+    .skil{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 25px;
+        padding: 20px;
+        padding-left: 2%;
+    
+    }
+    .fourthpg{
+        width: auto;
+        margin-top: 30%;
     }
         
 }
