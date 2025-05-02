@@ -410,7 +410,7 @@ h2{
     
     
 }
-.menuitem, .menuimg,.mobaboutimg, .mobbanner, .mobpjimgg{
+.menuitem, .menuimg,.mobaboutimg, .mobbanner, #mobpjimgg{
     display: none;
 }
 
@@ -575,7 +575,7 @@ h2{
     
     }
     .fourthpg{
-        width: auto;
+        width: 100%;
         margin-top: 30%;
         padding-left: 0%;
         height: 2004px;
@@ -609,5 +609,27 @@ h2{
     }
     .pjdetails{
         margin-bottom: 90px;
+        padding-left: 3%;
+
+    }
+    .pj{
+        padding-left: 0%;
+    }
+    .lastpg{
+        height: 904px;
+    }
+    #certificationtitle{
+        font-size: 35px;
+        
+
+    }
+    .fifthpg{
+        padding-left: 40px;
+    }
+    #cerdiv{
+        padding-left: 80px;
+    }
+    .cer1{
+        width: 100%;
     }
 }
