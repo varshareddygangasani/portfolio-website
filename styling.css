@@ -404,27 +404,77 @@ h2{
     background-color: #000000;
 }
 
-@media (max-width: 576px){
-    .firstdiv{
-        width: 570px;
-        height: 72px;
+
+.hamburger {
+    display: none;
+    
+    
+}
+
+
+
+
+@media (max-width: 576px) {
+    .firstdiv {
         padding: 16px;
     }
-    .navigation{
-        width: 100;
-        height: 40px;
-        display: flex;
-        justify-content: space-between;
+    .navigation {
+        height: auto;
+        align-items: center;
     }
-    .bar {
-        width: 35px;
-        height: 5px;
-        background-color: black;
-        margin: 6px 0;
+    .vardiv {
+        flex: 1;
+    }
+    .varsha {
+        height: 30px;
+    }
+    .nav {
+        display: none;
+    }
+    .hamburger {
         display: flex;
         flex-direction: column;
-      }
-    .nav{
+        justify-content: center;
+        align-items: center;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+       
+    }
+    .bar {
+        width: 30px;
+        height: 4px;
+        background-color: black;
+        margin: 3px 0;
+        transition: 0.3s;
+    }
+    .btn img {
         display: none;
+    }
+   
+    #myLinks {
+        display: none;
+    }
+    #myLinks.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 25%;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        gap: 15px;
+        
+    }
+    .menuitem{
+        size: 18px;
+        font-weight: 450;
+    }
+    .menuimg{
+        width: 120px;
+        height: 40px;
     }
 }

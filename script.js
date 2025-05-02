@@ -44,3 +44,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
             alert('Oops! Something went wrong while sending the confirmation. Please try again later.');
         });
 });
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    x.classList.toggle("active");
+}
