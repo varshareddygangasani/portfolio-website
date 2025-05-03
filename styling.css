@@ -413,6 +413,10 @@ h2{
 .menuitem, .menuimg,.mobaboutimg, .mobbanner, #mobpjimgg{
     display: none;
 }
+#idiconimg{
+    width: 30px;
+    height: 30px;
+}
 
 
 
@@ -469,7 +473,7 @@ h2{
         position: absolute;
         top: 120px;
         left: 400px;
-        width: 80%;
+        width: 65%;
         background-color: #fff;
         padding: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -501,7 +505,7 @@ h2{
     } 
     img.mobbanner {
         display: flex;
-        max-width: 550px;
+        max-width: 650px;
         height: auto;
     }
     
@@ -516,20 +520,23 @@ h2{
         height: auto;
     }
     span{
-        font-size: 38px;
+        font-size: 65px;
         left: 0px;
     }
     .fisthalf,.para ,.firstpara{
-        padding-left: 0%;
+        padding-left: 1%;
         padding-top: 0%;
     }
     .secdiv2{
         padding-left: 5%;
+        width: 165%;
     }
     .secpara {
         height: 96px;
-        width: 385px;
-        padding-top:0% ;
+        width: 110%;
+        padding-top:15% ;
+        font-size: 30px;
+        
     }
     .varsha {
         height: 80px;
@@ -543,13 +550,31 @@ h2{
         
     }
     .icons{
-        padding-left: 40px;
+        padding-top: 40%;
+        padding-left: 70px;
+        width: 500px;
+        
+    }
+    .icon{
+        width: 25%;
+        height: 130px;
+        border-width: 3px;
+        
+    }
+    .iconimg{
+        width: 70px;
+        height: 70px;
+    }
+    #idiconimg{
+        width: 55px;
+        height: 55px;
     }
     .secpag{
         padding-left: 5%;
     }
     .about1{
         padding-left: 7%;
+        margin-top: 80%;
     }
     .secpag {
         margin-top: 50%;
