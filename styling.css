@@ -580,7 +580,8 @@ h2{
     }
     .about1{
         padding-left: 25%;
-        margin-top: 80%;
+        margin-top: 90%;
+        margin-bottom: 5%;
     }
     .secpag {
         margin-top: 50%;
@@ -596,7 +597,8 @@ h2{
     }
     .thirdinner{
         padding-left: 2%;
-        margin-top: 1400px;
+        margin-top: 1500px;
+        
 
     }
     .txt1, .txt2{
@@ -608,10 +610,20 @@ h2{
     .skil{
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: auto;
-        gap: 25px;
+        gap: 65px;
         padding: 20px;
-        padding-left: 3%;
+        padding-left: 11%;
+        margin-top: 10%;
     
+    }
+
+    .imgg {
+        margin-top: 11px;
+        width: 100px;
+        height: 100px;
+    }
+    .imgtag{
+        font-size: 30px;
     }
     .fourthpg{
         width: 100%;
@@ -623,6 +635,8 @@ h2{
         
         border: 1px solid black;
         border-radius: 8px;
+        width: 170px;
+        height: 200px;
         
     }
     .fourthpgtitle{
