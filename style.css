@@ -1,5 +1,5 @@
 .firstdiv{
-    width: 100%;
+    
     padding: 24px 80px 24px 80px;
 }
 .navigation{
@@ -152,7 +152,7 @@ span{
     gap:20px;
 }
 .thirdpg{
-    height: 628px;
+    height: 380px;
     padding: 60px 80px 60px 80px;
 }
 .thirdinner{
@@ -179,10 +179,10 @@ span{
     padding: 20px 20px;
 }
 .skil{
-    height: 450px;
+    /* height: 450px; */
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
     gap: 10px;
     padding: 20px;
     place-items: center;
@@ -410,15 +410,18 @@ h2{
     
     
 }
-.menuitem, .menuimg,.mobaboutimg, .mobbanner{
+.menuitem, .menuimg,.mobaboutimg, .mobbanner, #mobpjimgg{
     display: none;
 }
 
 
 
 
+
 @media (max-width: 500px) {
+    
     .firstdiv {
+        width: 95%;
         padding: 16px;
     }
     .navigation {
@@ -431,7 +434,7 @@ h2{
     .varsha {
         height: 30px;
     }
-    .nav {
+    .nav , .aboutimg {
         display: none;
     }
     .hamburger {
@@ -452,7 +455,7 @@ h2{
         margin: 3px 0;
         transition: 0.3s;
     }
-    .btn img {
+    .btn img,.banner {
         display: none;
     }
    
@@ -479,8 +482,172 @@ h2{
     }
     .menuimg{
         display: flex;
-
         width: 120px;
         height: 40px;
     }
+    .secdiv2 , .secinner{
+        flex-direction: column;
+    }
+    /* .secdiv2{
+        height: 1200px;
+    } */
+    .secpag{
+        margin-top: 160px;
+    } 
+    img.mobbanner {
+        display: flex;
+        max-width: 550px;
+        height: auto;
+    }
+    
+    .fisthalf, .firstpara{
+        max-width: 100%;
+    }
+   
+    .mobaboutimg{
+        display: flex;
+
+        max-width: 50%;
+        height: auto;
+    }
+    span{
+        font-size: 38px;
+        left: 0px;
+    }
+    .fisthalf,.para ,.firstpara{
+        padding-left: 0%;
+        padding-top: 0%;
+    }
+    .secdiv2{
+        padding-left: 5%;
+    }
+    .secpara {
+        height: 96px;
+        width: 385px;
+        padding-top:0% ;
+    }
+    .varsha {
+        height: 40px;
+    }
+    .imglogo{
+        height: 50px;
+
+    }
+    .para{
+        height: 320px;
+        
+    }
+    .icons{
+        padding-left: 40px;
+    }
+    .secpag{
+        padding-left: 5%;
+    }
+    .about1{
+        padding-left: 7%;
+    }
+    .secpag {
+        margin-top: 50%;
+    }
+    .about2{
+        max-width: 385px;
+    }
+    .thirdpg{
+        padding-top: 500px;
+        padding-left: 0%;
+
+    }
+    .thirdinner{
+        padding-left: 2%;
+
+    }
+    .firstline{
+        padding-left: 30%;
+    }
+    .skil{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 25px;
+        padding: 20px;
+        padding-left: 3%;
+    
+    }
+    .fourthpg{
+        width: 100%;
+        margin-top: 30%;
+        padding-left: 0%;
+        height: 2004px;
+    }
+    .imgbor {
+        
+        border: 1px solid black;
+        border-radius: 8px;
+        
+    }
+    /* .fourthpgtitle{
+        padding-left: 30%;
+    } */
+    .lastinner, .pj{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .pjimgg {
+        width: 400px;
+        height: 184px;
+     
+    }
+    #mobpjimgg{
+        display: flex;
+    }
+    #secpj{
+        display: none;
+    }
+    .pjinfo{
+        width: 400px;
+    }
+    .pjdetails{
+        margin-bottom: 90px;
+        padding-left: 3%;
+
+    }
+    .pj{
+        padding-left: 0%;
+    }
+    .lastpg{
+        height: 904px;
+    }
+    #certificationtitle{
+        font-size: 35px;
+        
+
+    }
+    .fifthpg{
+        padding-left: 40px;
+    }
+    #cerdiv{
+        padding-left: 80px;
+    }
+    .cer1{
+        width: 100%;
+    }
+    .endlines{
+        width: 300px;
+        padding-left: 0px;
+    }
+    .lastpg{
+        padding-left: 8px;
+    }
+    .input{
+        width: 320px;
+    }
+    .help{
+        width: 345px;
+    }
+    .butico, .icoons{
+        gap: 20px;
+    }
+    .blank{
+        width: 400px;
+    }
 }
+@

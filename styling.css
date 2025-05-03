@@ -418,21 +418,22 @@ h2{
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
+    
     
     .firstdiv {
-        width: 95%;
-        padding: 16px;
+        width: 650px;
+        padding: 30px;
     }
     .navigation {
         height: auto;
         align-items: center;
     }
     .vardiv {
-        flex: 1;
+        width: 95%;
     }
     .varsha {
-        height: 30px;
+        height: 50px;
     }
     .nav , .aboutimg {
         display: none;
@@ -449,10 +450,10 @@ h2{
        
     }
     .bar {
-        width: 30px;
-        height: 4px;
+        width: 60px;
+        height: 8px;
         background-color: black;
-        margin: 3px 0;
+        margin: 5px 0;
         transition: 0.3s;
     }
     .btn img,.banner {
@@ -466,9 +467,9 @@ h2{
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 80px;
-        right: 0;
-        width: 40%;
+        top: 100px;
+        left: 460px;
+        width: 60%;
         background-color: #fff;
         padding: 20px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -477,13 +478,14 @@ h2{
     }
     .menuitem{
         display: flex;
-        size: 18px;
-        font-weight: 450;
+        font-size: 30px;
+        font-weight: 500;
     }
+
     .menuimg{
         display: flex;
-        width: 120px;
-        height: 40px;
+        width: 170px;
+        height: 60px;
     }
     .secdiv2 , .secinner{
         flex-direction: column;
@@ -527,10 +529,10 @@ h2{
         padding-top:0% ;
     }
     .varsha {
-        height: 40px;
+        height: 70px;
     }
     .imglogo{
-        height: 50px;
+        height: 70px;
 
     }
     .para{
@@ -643,7 +645,7 @@ h2{
     .help{
         width: 345px;
     }
-    .buticon, .icoons{
+    .butico , .icoons{
         gap: 20px;
     }
     .blank{
