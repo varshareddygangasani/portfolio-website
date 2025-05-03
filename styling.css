@@ -423,7 +423,9 @@ h2{
 
 
 @media (max-width: 768px) {
-    
+    body{
+        height: auto;
+    }
     
     .firstdiv {
         width: 650px;
@@ -512,12 +514,15 @@ h2{
     .fisthalf, .firstpara{
         max-width: 100%;
     }
+    .abotxt, .metxt{
+        font-size: 65px;
+    }
    
     .mobaboutimg{
         display: flex;
-
-        max-width: 50%;
+        max-width: 100%;
         height: auto;
+        padding-left: 70px;
     }
     span{
         font-size: 65px;
@@ -558,7 +563,8 @@ h2{
     .icon{
         width: 25%;
         height: 130px;
-        border-width: 3px;
+        border-width: 4px;
+        border-radius: 8px;
         
     }
     .iconimg{
@@ -573,14 +579,15 @@ h2{
         padding-left: 5%;
     }
     .about1{
-        padding-left: 7%;
+        padding-left: 25%;
         margin-top: 80%;
     }
     .secpag {
         margin-top: 50%;
     }
     .about2{
-        max-width: 385px;
+        max-width: 685px;
+        font-size: 35px;
     }
     .thirdpg{
         padding-top: 500px;
@@ -589,10 +596,14 @@ h2{
     }
     .thirdinner{
         padding-left: 2%;
+        margin-top: 1400px;
 
     }
+    .txt1, .txt2{
+        font-size: 68px;
+    }
     .firstline{
-        padding-left: 30%;
+        padding-left: 120%;
     }
     .skil{
         grid-template-columns: repeat(3,1fr);
@@ -604,7 +615,7 @@ h2{
     }
     .fourthpg{
         width: 100%;
-        margin-top: 30%;
+        margin-top: 1900px;
         padding-left: 0%;
         height: 2004px;
     }
