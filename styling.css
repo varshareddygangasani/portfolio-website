@@ -421,13 +421,23 @@ h2{
     width: 16px;
     height: 16px;
 }
-
+.mobabout{
+    display: none;
+}
 
 
 
 
 @media (max-width: 768px) {
-    
+    .mobabout{
+        display: flex;
+        
+        font-size: 30px;
+    }
+    }
+    .webabout{
+        display: none;
+    }
     
     .firstdiv {
         width: 650px;
@@ -599,7 +609,7 @@ h2{
     }
     .thirdinner{
         padding-left: 2%;
-        margin-top: 1500px;
+        margin-top: 880px;
         
 
     }
@@ -632,7 +642,7 @@ h2{
     }
     .fourthpg{
         width: 180%;
-        margin-top: 1900px;
+        margin-top: 1300px;
         padding: 0px 0px;
         height: 3404px;
     }
