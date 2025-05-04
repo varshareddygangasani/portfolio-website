@@ -417,15 +417,17 @@ h2{
     width: 30px;
     height: 30px;
 }
+.gitlink{
+    width: 16px;
+    height: 16px;
+}
 
 
 
 
 
 @media (max-width: 768px) {
-    body{
-        height: auto;
-    }
+    
     
     .firstdiv {
         width: 650px;
@@ -604,6 +606,9 @@ h2{
     .txt1, .txt2{
         font-size: 68px;
     }
+    .txt1pj, .txt2pj {
+        font-size: 68px;
+    }
     .firstline{
         padding-left: 120%;
     }
@@ -626,10 +631,10 @@ h2{
         font-size: 30px;
     }
     .fourthpg{
-        width: 100%;
+        width: 180%;
         margin-top: 1900px;
-        padding-left: 0%;
-        height: 2004px;
+        padding: 0px 0px;
+        height: 3404px;
     }
     .imgbor {
         
@@ -639,34 +644,51 @@ h2{
         height: 200px;
         
     }
-    .fourthpgtitle{
+    /* .fourthpgtitle{
         padding-left: 30%;
-    }
+    } */
     .lastinner, .pj{
         flex-direction: column;
         gap: 0px;
     }
     .pjimgg {
-        width: 400px;
-        height: 184px;
-     
+        width: 680px;
+        height: 354px;
+        margin-top: 10%;
     }
-    #mobpjimgg{
+    .pjdetails #mobpjimgg{
         display: flex;
+        padding-left: 0px;
+        margin-bottom: 10%;
+        margin-left:0px;
+
     }
     #secpj{
         display: none;
     }
     .pjinfo{
-        width: 400px;
+        width: 650px;
+        font-size: 30px;
     }
     .pjdetails{
         margin-bottom: 90px;
         padding-left: 3%;
+        height: 710px;
+
 
     }
+    #pjdea{
+        padding-left: 0px;
+    }
+    .pjnumm, .pjtitle {
+        font-size: 40px;
+    }
+    .gitlink{
+        width: 30px;
+        height: 30px;
+    }
     .pj{
-        padding-left: 0%;
+        padding-left: 2%;
     }
     .lastpg{
         height: 904px;
