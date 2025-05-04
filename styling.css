@@ -704,7 +704,7 @@ h2{
         height: 904px;
     }
     #certificationtitle{
-        font-size: 35px;
+        font-size: 55px;
         
 
     }
@@ -712,17 +712,18 @@ h2{
         padding-left: 40px;
     }
     #cerdiv{
-        padding-left: 80px;
+        padding-left: 110%;
     }
     .cer1{
-        width: 100%;
+        width: 210%;
+        height: 300px;
     }
     .endlines{
         width: 300px;
         padding-left: 0px;
     }
     .lastpg{
-        padding-left: 8px;
+        margin-top: 60%;
     }
     .input{
         width: 320px;
