@@ -726,15 +726,65 @@ h2{
         margin-top: 60%;
     }
     .input{
-        width: 320px;
+        width: 220%;
+        height: 50px;
     }
     .help{
-        width: 345px;
+        width: 545px;
     }
     .butico , .icoons{
         gap: 20px;
     }
     .blank{
         width: 400px;
+        height: 70px;
+    }
+
+
+    
+
+
+     
+    
+
+    .butico {
+        width: 240%;
+        gap: 20px;
+       
+    }
+
+    .but {
+        width: 200px;
+        height: 66px;
+    }
+
+    .icoons {
+        
+       
+        gap: 20px;
+    }
+
+    .iconn {
+        width: 78px;
+        height: 68px;
+    }
+
+    .endlines {
+        width: 300px;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .endlines .pp2, .endlines .txttt {
+        font-size: 34px;
+    }
+
+    .endlines .about2 {
+        font-size: 20px;
+    }
+
+    .mail {
+        font-size: 25px;
     }
 }
