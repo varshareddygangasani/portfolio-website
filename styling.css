@@ -420,14 +420,21 @@ h2{
 .mobabout{
     display: none;
 }
+#idiconimg{
+    width: 30px;
+    height: 30px;
+}
 
 
 
-@media (max-width: 768px) {
+@media (min-width: 480px) and (max-width: 768px) {
+    body{
+        margin: 0px 0px;
+    }
     .mobabout{
         display: flex;
-        
-        font-size: 30px;
+        width: 680px;
+        font-size: 25px;
     }
     
     .webabout{
@@ -514,7 +521,6 @@ h2{
     } 
     img.mobbanner {
         display: flex;
-        max-width: 650px;
         height: auto;
     }
     
@@ -539,18 +545,18 @@ h2{
         left: 0px;
     }
     .fisthalf,.para ,.firstpara{
-        padding-left: 0%;
+        
         padding-top: 0%;
     }
     .secdiv2{
-        padding-left: 5%;
         width: 100%;
+        padding: 0px 0px;
     }
     .secpara {
         height: 96px;
         width: 100%;
         padding-top:15% ;
-        font-size: 30px;
+        font-size: 25px;
         
     }
     .varsha {
@@ -610,7 +616,7 @@ h2{
     }
     .thirdinner{
         padding-left: 2%;
-        margin-top: 880px;
+        margin-top: 630px;
         
 
     }
@@ -621,14 +627,15 @@ h2{
         font-size: 68px;
     }
     .firstline{
-        padding-left: 100%;
+        width: 100%;
+        align-items: center;
     }
     .skil{
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: auto;
         gap: 65px;
         padding: 20px;
-        padding-left: 11%;
+        
         margin-top: 10%;
     
     }
@@ -643,7 +650,7 @@ h2{
     }
     .fourthpg{
         width: 100%;
-        margin-top: 1300px;
+        margin-top: 140%;
         padding: 0px 0px;
         height: 3404px;
     }
@@ -724,7 +731,6 @@ h2{
         padding-left: 0px;
     }
     .lastpg{
-        margin-top: 60%;
         padding-left: 30px;
     }
     .input{
@@ -732,7 +738,7 @@ h2{
         height: 60px;
     }
     .help{
-        width: 657px;
+        width: 100%;
     }
     .butico , .icoons{
         gap: 20px;
@@ -769,6 +775,7 @@ h2{
         padding: 0;
         align-items: center;
         text-align: center;
+        margin-top: 40px;
     }
 
     .endlines .pp2, .endlines .txttt {
