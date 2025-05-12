@@ -413,18 +413,13 @@ h2{
 .menuitem, .menuimg,.mobaboutimg, .mobbanner, #mobpjimgg{
     display: none;
 }
-#idiconimg{
-    width: 30px;
-    height: 30px;
-}
 .gitlink{
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
 }
 .mobabout{
     display: none;
 }
-
 
 
 
@@ -434,7 +429,7 @@ h2{
         
         font-size: 30px;
     }
-    }
+    
     .webabout{
         display: none;
     }
@@ -524,7 +519,7 @@ h2{
     }
     
     .fisthalf, .firstpara{
-        max-width: 100%;
+        max-width: 95%;
     }
     .abotxt, .metxt{
         font-size: 65px;
@@ -536,21 +531,24 @@ h2{
         height: auto;
         padding-left: 70px;
     }
+    .introtxt{
+        width: 100%;
+    }
     span{
         font-size: 65px;
         left: 0px;
     }
     .fisthalf,.para ,.firstpara{
-        padding-left: 1%;
+        padding-left: 0%;
         padding-top: 0%;
     }
     .secdiv2{
         padding-left: 5%;
-        width: 165%;
+        width: 100%;
     }
     .secpara {
         height: 96px;
-        width: 110%;
+        width: 100%;
         padding-top:15% ;
         font-size: 30px;
         
@@ -587,6 +585,9 @@ h2{
         width: 55px;
         height: 55px;
     }
+    .content{
+        width: 100%;
+    }
     .secpag{
         padding-left: 5%;
     }
@@ -620,7 +621,7 @@ h2{
         font-size: 68px;
     }
     .firstline{
-        padding-left: 120%;
+        padding-left: 100%;
     }
     .skil{
         grid-template-columns: repeat(3,1fr);
@@ -641,7 +642,7 @@ h2{
         font-size: 30px;
     }
     .fourthpg{
-        width: 180%;
+        width: 100%;
         margin-top: 1300px;
         padding: 0px 0px;
         height: 3404px;
@@ -712,10 +713,10 @@ h2{
         padding-left: 40px;
     }
     #cerdiv{
-        padding-left: 110%;
+        padding-left: 100%;
     }
     .cer1{
-        width: 210%;
+        width: 100%;
         height: 300px;
     }
     .endlines{
@@ -727,7 +728,7 @@ h2{
         padding-left: 30px;
     }
     .input{
-        width: 220%;
+        width: 100%;
         height: 60px;
     }
     .help{
@@ -737,19 +738,11 @@ h2{
         gap: 20px;
     }
     .blank{
-        width: 727px;
+        width: 100%;
         height: 170px;
     }
-
-
-    
-
-
-     
-    
-
     .butico {
-        width: 200%;
+        width: 100%;
         gap: 20px;
         margin-top: 30px;
        
@@ -789,4 +782,237 @@ h2{
     .mail {
         font-size: 28px;
     }
+
+}
+
+@media (max-width: 480px){
+    .firstdiv {
+        width: 95%;
+        padding: 16px;
+    }
+    .navigation {
+        height: auto;
+        align-items: center;
+    }
+    .vardiv {
+        flex: 1;
+    }
+    .varsha {
+        height: 30px;
+    }
+    .nav , .aboutimg {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        
+    }
+    .bar {
+        width: 30px;
+        height: 4px;
+        background-color: black;
+        margin: 3px 0;
+        transition: 0.3s;
+    }
+    .btn img,.banner {
+        display: none;
+    }
+    
+    #myLinks {
+        display: none;
+    }
+    #myLinks.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 40%;
+        background-color: #fff;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        gap: 15px;
+        
+    }
+    .menuitem{
+        display: flex;
+        size: 18px;
+        font-weight: 450;
+    }
+    .menuimg{
+        display: flex;
+        width: 120px;
+        height: 40px;
+    }
+    .secdiv2 , .secinner{
+        flex-direction: column;
+    }
+    /* .secdiv2{
+        height: 1200px;
+    } */
+    .secpag{
+        margin-top: 160px;
+    } 
+    img.mobbanner {
+        display: flex;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .fisthalf, .firstpara{
+        max-width: 100%;
+    }
+    
+    .mobaboutimg{
+        display: flex;
+
+        max-width: 50%;
+        height: auto;
+    }
+    span{
+        font-size: 38px;
+        left: 0px;
+    }
+    .fisthalf,.para ,.firstpara{
+        padding-left: 0%;
+        padding-top: 0%;
+    }
+    .secdiv2{
+        padding-left: 5%;
+    }
+    .secpara {
+        height: 96px;
+        width: 385px;
+        padding-top:0% ;
+    }
+    .varsha {
+        height: 40px;
+    }
+    .imglogo{
+        height: 50px;
+
+    }
+    .para{
+        height: 320px;
+        
+    }
+    .icons{
+        padding-left: 40px;
+    }
+    .secpag{
+        padding-left: 5%;
+    }
+    .about1{
+        padding-left: 7%;
+    }
+    .secpag {
+        margin-top: 50%;
+    }
+    .about2{
+        max-width: 385px;
+    }
+    .thirdpg{
+        padding-top: 500px;
+        padding-left: 0%;
+
+    }
+    .thirdinner{
+        padding-left: 2%;
+
+    }
+    .firstline{
+        padding-left: 30%;
+    }
+    .skil{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        gap: 25px;
+        padding: 20px;
+        padding-left: 3%;
+    
+    }
+    .fourthpg{
+        width: 100%;
+        margin-top: 30%;
+        padding-left: 0%;
+        height: 2004px;
+    }
+    .imgbor {
+        
+        border: 1px solid black;
+        border-radius: 8px;
+        
+    }
+    /* .fourthpgtitle{
+        padding-left: 30%;
+    } */
+    .lastinner, .pj{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .pjimgg {
+        width: 400px;
+        height: 184px;
+        
+    }
+    #mobpjimgg{
+        display: flex;
+    }
+    #secpj{
+        display: none;
+    }
+    .pjinfo{
+        width: 400px;
+    }
+    .pjdetails{
+        margin-bottom: 90px;
+        padding-left: 3%;
+
+    }
+    .pj{
+        padding-left: 0%;
+    }
+    .lastpg{
+        height: 904px;
+    }
+    #certificationtitle{
+        font-size: 35px;
+        
+
+    }
+    .fifthpg{
+        padding-left: 40px;
+    }
+    #cerdiv{
+        padding-left: 80px;
+    }
+    .cer1{
+        width: 100%;
+    }
+    .endlines{
+        width: 300px;
+        padding-left: 0px;
+    }
+    .lastpg{
+        padding-left: 8px;
+    }
+    .input{
+        width: 320px;
+    }
+    .help{
+        width: 345px;
+    }
+    .butico, .icoons{
+        gap: 20px;
+    }
+    .blank{
+        width: 100%;
+    } 
 }
