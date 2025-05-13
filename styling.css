@@ -14,7 +14,7 @@
 }
 
 .varsha{
-    height: 40px;
+    height: 60px;
 }
 .nav{
     display:flex;
@@ -793,9 +793,12 @@ h2{
 }
 
 @media (max-width: 480px){
+    body{
+        margin: 0px 0px;
+    }
     .firstdiv {
         width: 95%;
-        padding: 16px;
+        padding: 16px 0px 0px 16px;
     }
     .navigation {
         height: auto;
@@ -880,8 +883,11 @@ h2{
     .mobaboutimg{
         display: flex;
 
-        max-width: 50%;
+        max-width: 100%;
         height: auto;
+    }
+    .pjimg{
+        width: auto;
     }
     span{
         font-size: 38px;
@@ -890,6 +896,12 @@ h2{
     .fisthalf,.para ,.firstpara{
         padding-left: 0%;
         padding-top: 0%;
+    }
+    .webabout{
+        display: none;
+    }
+    .mobabout{
+        display: flex;
     }
     .secdiv2{
         padding-left: 5%;
@@ -900,13 +912,14 @@ h2{
         padding-top:0% ;
     }
     .varsha {
-        height: 40px;
+        height: 50px;
     }
     .imglogo{
         height: 50px;
 
     }
     .para{
+        width: 100%;
         height: 320px;
         
     }
@@ -918,6 +931,10 @@ h2{
     }
     .about1{
         padding-left: 7%;
+        width: 300px;
+    }
+    .content{
+        width: 380px;
     }
     .secpag {
         margin-top: 50%;
@@ -926,7 +943,7 @@ h2{
         max-width: 385px;
     }
     .thirdpg{
-        padding-top: 500px;
+        padding-top: 80%;
         padding-left: 0%;
 
     }
@@ -948,7 +965,7 @@ h2{
     .fourthpg{
         width: 100%;
         margin-top: 30%;
-        padding-left: 0%;
+        padding: 0% 0%;
         height: 2004px;
     }
     .imgbor {
@@ -981,6 +998,7 @@ h2{
     .pjdetails{
         margin-bottom: 90px;
         padding-left: 3%;
+        width: auto;
 
     }
     .pj{
@@ -1008,7 +1026,7 @@ h2{
         padding-left: 0px;
     }
     .lastpg{
-        padding-left: 8px;
+        padding: 60px 80px 60px 25px;
     }
     .input{
         width: 320px;
